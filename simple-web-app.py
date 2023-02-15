@@ -4,4 +4,4 @@ app = Flask(__name__)
 def index():
         return "Congratulations, it's a web app!"
 if __name__ == "__main__":
-        app.run(host="192.168.56.1", port=7575)
+        app.run(host="0.0.0.0", port=8080)
